@@ -15,11 +15,15 @@ class Bus extends Vehicle {
 
     void showData() {
         super.showData();
+        System.out.println("________________________");
+        System.out.println(" BUS DETAILS");
+        System.out.println("------------------------");
         System.out.println("\nReg no: " + regnNumber);
         System.out.println("Color: " + color);
         System.out.println("Owner: " + ownerName);
         System.out.println("Speed: " + speed + " KM/H");
         System.out.println("Route: " + routeNumber);
+        System.out.println("------------------------");
     }
 }
 
@@ -28,11 +32,15 @@ class Car extends Vehicle {
 
     void showData() {
         super.showData();
+        System.out.println("________________________");
+        System.out.println(" CAR DETAILS");
+        System.out.println("------------------------");
         System.out.println("\nReg no: " + regnNumber);
         System.out.println("Color: " + color);
         System.out.println("Owner: " + ownerName);
         System.out.println("Speed: " + speed + " KM/H");
         System.out.println("Manufacturer: " + ManufacturerName);
+        System.out.println("------------------------");
     }
 }
 
